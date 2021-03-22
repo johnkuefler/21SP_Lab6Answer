@@ -15,9 +15,12 @@ public class Main {
         Employee mark = new Employee("Mark Jones", 39119, "IT", "Programmer");
         Employee joy = new Employee("Joy Rogers", 81774, "Manufacturing", "Engineer");
         
-        // printing info in one line each to receive extra credit, could also call all getters to print that data
+        // printing info in one line each to receive extra credit
         susan.print();
         mark.print();
         joy.print();
+        
+        // example of printing with getters -- valid, but no extra credit
+        System.out.println(susan.getName() + " " + susan.getIdNumber() + " " + susan.getDepartment() + " " + susan.getPosition());
     }
 }
